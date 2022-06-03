@@ -13,12 +13,13 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://oliver.snell.me
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
 
 # Directory
 source_dir: source
@@ -97,7 +98,40 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus-white
+theme: cactus
+
+theme_config:
+  colorscheme: classic
+  nav:
+    home: /
+    about: /about/
+    articles: /archives/
+    projects: http://github.com/snello
+  social_links:
+    github: http://github.com/snello
+    twitter: https://twitter.com/olliesnell
+    linkedin: https://linkedin.com/in/oliversnell
+    mail: mailto:oliver@snell.me
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    url: /images/me.jpg
+    gravatar: true
+    grayout: false
+  gravatar:
+    email: oliver@snell.me
+    hash: bc9d1b2c522a8333de2da41b7d7dc764
+  favicon:
+    desktop:
+      url: /images/favicon.ico
+      gravatar: true
+    android:
+      url: /images/favicon-192x192.png
+      gravatar: true
+    apple:
+      url: /images/apple-touch-icon.png
+      gravatar: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
