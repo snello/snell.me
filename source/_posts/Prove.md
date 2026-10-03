@@ -5,7 +5,7 @@ job_title: VP, Product
 company_url: https://www.prove.com
 location: New York City, USA
 date_start: 2018-09-01
-date_end:
+date_end: 2026-08-16
 logo: prove-logo.svg
 current_status: Operating
 tags:
