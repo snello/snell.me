@@ -10,6 +10,8 @@ logo: suitcasetv_logo.jpg
 current_status: Ceased Trading
 tags:
     - "c++"
+    - B2B
+    - Hardware
     - "Broadcast Playout"
     - "Audit"
     - "FPGA"

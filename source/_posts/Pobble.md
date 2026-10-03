@@ -9,7 +9,8 @@ date_end: 2016-03-01
 logo: pobble-logo.png
 current_status: Operating
 tags:
-    - B2C
+    - B2B(2C)
+    - SaaS
     - EdTech
     - Ruby on Rails
     - ElasicSearch

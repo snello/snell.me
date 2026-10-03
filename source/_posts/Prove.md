@@ -15,6 +15,8 @@ tags:
     - AML
     - Compliance
     - RegTech
+    - SaaS
+    - B2B
 ---
 $150M ARR and ~330 people. Guiding mission is centered around creating an equitable and convenient solution to digital transactions and identity verification processes, designed to open up access to online services around the world and mitigate fraud.
 

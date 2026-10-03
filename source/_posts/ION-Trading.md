@@ -10,6 +10,7 @@ logo: ion-logo.svg
 tags:
     - Investment Banking
     - Fixed Income Repo
+    - B2B
     - C++
     - Linux
     - TransactSQL
@@ -20,4 +21,3 @@ Provides trading and risk management solutions for equities, fixed income, forex
 
 * Served as an onsite product developer/consultant for ION Trading, delivering bespoke trading and risk management solutions for investment banks (including Bank of America and ING).
 * Collaborated with traders to develop new features for the ARTS platform, including trade feeds, reporting tools, and customized functionalities (Perl, Transact-SQL, C++).
-
