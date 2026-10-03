@@ -1,7 +1,19 @@
 ---
-title: Apprenticeship at BT Labs (1997 - 1999)
-date: 2022-06-03 10:34:26
+layout: job
+title: to be a job
+company: BT Labs
+job_title: Apprentice Engineer
+company_url: https://www.bt.com
+location: Ipswich, United Kingdom
+date_start: 1997-09-01
+date_end: 1999-09-01
+logo: bt-logo.png
+current_status: Operating
 tags:
+    - "c++"
+    - "electronics"
+    - "scientific measurement"
+    - "SatComms"
 ---
 During my appenticeship with BT Labs, I was assigned to the Satellite Communications team.
 

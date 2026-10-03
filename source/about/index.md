@@ -3,7 +3,7 @@ title: about
 date: 2022-04-29 17:11:48
 ---
 # About
-First and foremost, I am a human-being living in New York City with my family.
+First and foremost, I am a human-being living in New York City since 2004.
 
 ## The early years
 

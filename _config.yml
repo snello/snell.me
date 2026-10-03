@@ -105,8 +105,7 @@ theme_config:
   nav:
     home: /
     about: /about/
-    articles: /archives/
-    projects: http://github.com/snello
+    career: /career/
   social_links:
     -
       icon: github
