@@ -8,6 +8,7 @@ title: Oliver Snell
     <p class="tagline">VP Product at Prove | 20+ years in tech | NYC-based</p>
     <div class="cta-buttons">
       <a href="/career/" class="btn btn-primary">View Career</a>
+      <a href="/projects/" class="btn btn-secondary">View Projects</a>
       <a href="/about/" class="btn btn-secondary">Read My Story</a>
     </div>
   </div>
