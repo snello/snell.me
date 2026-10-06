@@ -106,6 +106,7 @@ theme_config:
     home: /
     about: /about/
     career: /career/
+    projects: /projects/
   social_links:
     -
       icon: github
