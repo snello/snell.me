@@ -1,0 +1,19 @@
+<article class="sn-article h-entry">
+  <header class="sn-page-head sn-job-head">
+    <div>
+      <p class="sn-eyebrow"><time datetime="<%= snell_iso(page.date_start) %>"><%= snell_month_year(page.date_start) %></time> &ndash; <% if (snell_is_current(page)) { %><%= __('labels.present') %><% } else { %><time datetime="<%= snell_iso(page.date_end) %>"><%= snell_month_year(page.date_end) %></time><% } %></p>
+      <h1 class="sn-page-title"><%= page.company %></h1>
+      <p class="sn-page-lead"><%= page.job_title %></p>
+    </div>
+    <% if (page.logo) { %><a class="sn-job-logo sn-job-logo-lg" href="<%- page.company_url || '#' %>" rel="noopener"><img src="<%- url_for('/images/' + page.logo) %>" alt="<%= page.company %> logo"></a><% } %>
+  </header>
+  <dl class="sn-facts">
+    <% if (page.location) { %><div><dt><%= __('labels.location') %></dt><dd><%= page.location %></dd></div><% } %>
+    <% if (page.current_status) { %><div><dt><%= __('labels.status') %></dt><dd><%= page.current_status %></dd></div><% } %>
+    <% if (page.company_url) { %><div><dt><%= __('labels.website') %></dt><dd><a href="<%- page.company_url %>" rel="noopener"><%= page.company_url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '') %></a></dd></div><% } %>
+  </dl>
+  <div class="sn-prose e-content"><%- page.content %></div>
+  <%- partial('_partial/gallery', { item: page }) %>
+  <%- partial('_partial/tags', { item: page, link: true }) %>
+  <%- partial('_partial/post-nav') %>
+</article>

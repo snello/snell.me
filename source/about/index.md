@@ -22,12 +22,16 @@ Having completed my apprenticeship, I set out to gain a deeper understanding of 
 
 ## Career
 
-2002 - 2004:&emsp;&emsp;&emsp;&emsp;SuitcaseTV (defunct) - [Read more](/2022/06/03/career-suitcasetv/)
-2004 - 2008:&emsp;&emsp;&emsp;&emsp;[Anvil Software / ION Trading](https://iongroup.com/markets/)
-2008 - 2012:&emsp;&emsp;&emsp;&emsp;Compliant Phones / Cognia (defunct)
-2012 - 2016:&emsp;&emsp;&emsp;&emsp;[Freelance Projects]()
-2016 - 2018:&emsp;&emsp;&emsp;&emsp;[ElimiWait Parking](http://elimiwaitparking.com/)
-2018 - Present:&emsp;[Payfone / Prove](https://prove.com)
+<ul class="sn-career-list">
+<li><span class="sn-career-years">2018 - Present</span><a href="/2025/04/29/Prove/">Prove</a></li>
+<li><span class="sn-career-years">2016 - 2018</span><a href="/2025/04/29/ElimiWait-Parking/">ElimiWait Parking</a></li>
+<li><span class="sn-career-years">2015 - 2016</span><a href="/2025/04/29/Pobble/">Pobble</a></li>
+<li><span class="sn-career-years">2012 - 2015</span><a href="/2025/04/29/Cognia/">Cognia</a></li>
+<li><span class="sn-career-years">2008 - 2012</span><a href="/2025/08/05/international-british-schools/">International British Schools</a></li>
+<li><span class="sn-career-years">2004 - 2008</span><a href="/2025/04/29/ION-Trading/">ION Trading</a></li>
+<li><span class="sn-career-years">2002 - 2004</span><a href="/2025/04/27/career-suitcasetv/">SuitcaseTV</a></li>
+<li><span class="sn-career-years">1997 - 1999</span><a href="/2025/04/27/Apprenticeship-at-BT-Labs/">BT Labs</a></li>
+</ul>
 
 ## Future
 

@@ -1,0 +1,34 @@
+<header class="sn-topbar">
+  <a class="sn-topbar-name" href="<%- url_for('/') %>">&copy; <%= theme.name || config.author %></a>
+  <button type="button" class="sn-menu-toggle" aria-expanded="false" aria-controls="sn-topbar-nav">
+    <span class="sn-menu-label"><%= __('labels.menu') %></span>
+    <span class="sn-menu-icon" aria-hidden="true"></span>
+  </button>
+  <nav id="sn-topbar-nav" class="sn-topbar-nav" aria-label="Sections">
+    <% for (var key in theme.nav) { %>
+      <% var target = theme.nav[key]; var path = '/' + page.path.replace(/index\.html$/, ''); %>
+      <% var here = target === '/' ? (is_home() || page.path === 'index.html') : path.indexOf(target) === 0; %>
+      <a href="<%- url_for(target) %>"<%- here ? ' aria-current="page"' : '' %>><%= __('nav.' + key) %></a>
+    <% } %>
+  </nav>
+</header>
+<script>
+(function () {
+  var toggle = document.querySelector('.sn-menu-toggle');
+  var nav = document.getElementById('sn-topbar-nav');
+  if (!toggle || !nav) return;
+  function setOpen(open) {
+    toggle.setAttribute('aria-expanded', String(open));
+    nav.classList.toggle('is-open', open);
+  }
+  toggle.addEventListener('click', function () {
+    setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+  });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') setOpen(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') setOpen(false);
+  });
+})();
+</script>

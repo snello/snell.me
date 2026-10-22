@@ -1,0 +1,9 @@
+<a class="sn-row sn-job" href="<%- url_for(item.path) %>">
+  <span class="sn-row-meta"><%= snell_year(item.date_start) %>&ndash;<%= snell_is_current(item) ? __('labels.present') : snell_year(item.date_end) %></span>
+  <span class="sn-row-main">
+    <span class="sn-row-title"><%= item.company %></span>
+    <span class="sn-row-sub"><%= item.job_title %><% if (item.location) { %> &middot; <%= item.location %><% } %></span>
+  </span>
+  <% if (item.logo) { %><span class="sn-job-logo"><img src="<%- url_for('/images/' + item.logo) %>" alt="" loading="lazy"></span><% } %>
+  <span class="sn-ring"><%- snell_icon('arrow-right', 14) %></span>
+</a>

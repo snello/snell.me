@@ -1,0 +1,7 @@
+<% var intro = (theme.projects && theme.projects.intro) ? markdown(theme.projects.intro) : page.content; %>
+<section class="sn-listing">
+  <%- partial('_partial/page-head', { eyebrow: '', title: __('nav.projects'), lead: intro }) %>
+  <div class="sn-cards">
+    <% snell_projects().forEach(function (p) { %><%- partial('_partial/project-card', { item: p }) %><% }) %>
+  </div>
+</section>

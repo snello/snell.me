@@ -1,0 +1,10 @@
+<nav class="sn-dock" aria-label="Site">
+  <% for (var key in theme.nav) { %>
+    <% var target = theme.nav[key]; var path = '/' + page.path.replace(/index\.html$/, ''); %>
+    <% var active = target === '/' ? (is_home() || page.path === 'index.html') : path.indexOf(target) === 0; %>
+    <a class="sn-dock-btn" href="<%- url_for(target) %>" aria-label="<%= __('nav.' + key) %>" title="<%= __('nav.' + key) %>"<%- active ? ' aria-current="page"' : '' %>><%- snell_icon(snell_nav_icon(key), 18) %></a>
+  <% } %>
+  <% var mail = snell_social('mail'); if (mail) { %>
+    <a class="sn-dock-btn" href="<%- mail.link %>" aria-label="<%= __('nav.contact') %>" title="<%= __('nav.contact') %>"><%- snell_icon('mail', 18) %></a>
+  <% } %>
+</nav>

@@ -1,6 +1,6 @@
 # oliver.snell.me
 
-The source for my personal homepage, career history, projects and writing, built with [Hexo](https://hexo.io) and a customised fork of [hexo-theme-cactus](https://github.com/snello/hexo-theme-cactus).
+The source for my personal homepage, career history, projects and writing, built with [Hexo](https://hexo.io) and the Snell theme in `themes/snell`.
 
 ## Getting started
 
@@ -43,7 +43,7 @@ All content lives in `source/`. Each file's front matter sets its `layout`, whic
 
 Post URLs follow `:year/:month/:day/:title/`, so the date in front matter sets the URL.
 
-The homepage content is in the theme's `layout/index.ejs`. The Featured Roles cards there link to the role posts by their URL.
+The homepage is built by the theme from `_config.snell.yml` (hero, intro, highlights, skills) plus the project and role posts. Featured roles are listed by company name under `home.featured_roles`.
 
 ### New post
 
@@ -63,16 +63,10 @@ Put images in `source/images/` and reference them with an absolute path:
 
 ## Navigation
 
-The menu is set in `theme_config.nav` in `_config.yml`. Labels come from the theme's `languages/en.yml`.
+The dock and top bar are set in `theme_config.nav` in `_config.yml`. Labels come from `themes/snell/languages/en.yml`.
 
 ## Theme
 
-The theme is a git submodule at `themes/hexo-theme-cactus`, pointing at my fork. Changes to layouts, partials or styles belong in the theme repository, so commit them there and then update the submodule pointer in this repository:
+The site uses the Snell theme in `themes/snell`, built from the "Oliver Snell" design system. It is part of this repository, so commit theme changes here directly. See `themes/snell/README.md` for which front matter each layout reads.
 
-```sh
-cd themes/hexo-theme-cactus
-git add -A && git commit -m "Describe the change" && git push
-cd ../..
-git add themes/hexo-theme-cactus
-git commit -m "Update hexo-theme-cactus submodule"
-```
+Site content for the theme lives in `_config.snell.yml`. The previous theme, hexo-theme-cactus, is still a submodule at `themes/hexo-theme-cactus`; set `theme: hexo-theme-cactus` in `_config.yml` to switch back.

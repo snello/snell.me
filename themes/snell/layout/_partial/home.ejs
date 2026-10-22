@@ -1,0 +1,76 @@
+<% var h = theme.home || {}; var mail = snell_social('mail'); %>
+<header class="sn-hero">
+  <div class="sn-hero-top">
+    <% if (h.statement) { %><p class="sn-hero-statement"><%= h.statement %></p><% } %>
+  </div>
+  <% if (h.portrait) { %><img class="sn-hero-portrait" src="<%- url_for(h.portrait) %>" alt="<%= theme.name %>"><% } %>
+  <% if (h.roles && h.roles.length) { %>
+    <div class="sn-hero-roles"><%- snell_icon('arrow-down-right', 20) %><% h.roles.forEach(function (r) { %><div><%= r %></div><% }) %></div>
+  <% } %>
+  <div class="sn-marquee" role="marquee" aria-label="<%= h.marquee %>">
+    <div class="sn-marquee-track">
+      <% for (var i = 0; i < 8; i++) { %><span class="sn-marquee-item"<%- i ? ' aria-hidden="true"' : '' %>><%= h.marquee %></span><% } %>
+    </div>
+  </div>
+</header>
+
+<% if (h.lead) { %>
+<section class="sn-section sn-intro">
+  <p class="sn-lead"><%= h.lead %></p>
+  <div class="sn-intro-side">
+    <% if (h.lead_note) { %><p class="sn-intro-note"><%= h.lead_note %></p><% } %>
+    <% if (h.lead_link && h.lead_link.url) { %>
+      <a class="sn-btn sn-btn-link" href="<%- url_for(h.lead_link.url) %>"><%= h.lead_link.label %><span class="sn-ring"><%- snell_icon('arrow-right', 14) %></span></a>
+    <% } %>
+  </div>
+</section>
+<% } %>
+
+<% var projects = snell_projects().slice(0, h.work_count || 4); if (projects.length) { %>
+<section class="sn-section">
+  <div class="sn-section-head">
+    <h2 class="sn-heading"><%= h.work_heading %></h2>
+    <% if (h.work_note) { %><p class="sn-section-note"><%= h.work_note %></p><% } %>
+  </div>
+  <div class="sn-cards">
+    <% projects.forEach(function (p) { %><%- partial('_partial/project-card', { item: p }) %><% }) %>
+  </div>
+  <div class="sn-center"><a class="sn-btn sn-btn-pill" href="<%- url_for(theme.nav.projects || '/projects/') %>"><span class="sn-dot"></span><%= __('labels.all_work') %></a></div>
+</section>
+<% } %>
+
+<% var roles = snell_featured_roles(); if (roles.length) { %>
+<section class="sn-section">
+  <div class="sn-section-head">
+    <h2 class="sn-heading"><%= h.roles_heading %></h2>
+    <a class="sn-btn sn-btn-link" href="<%- url_for(theme.nav.career || '/career/') %>"><%= __('labels.all_roles') %><span class="sn-ring"><%- snell_icon('arrow-right', 14) %></span></a>
+  </div>
+  <div class="sn-rows">
+    <% roles.forEach(function (r) { %><%- partial('_partial/job-row', { item: r }) %><% }) %>
+  </div>
+</section>
+<% } %>
+
+<% if ((h.highlights && h.highlights.length) || (h.skills && h.skills.length)) { %>
+<section class="sn-dark" data-theme="dark">
+  <div class="sn-section">
+    <h2 class="sn-display sn-dark-title"><%= h.skills_heading %></h2>
+    <div class="sn-bento">
+      <% (h.highlights || []).forEach(function (c) { %>
+        <div class="sn-skill">
+          <% if (c.figure) { %><p class="sn-skill-figure"><%= c.figure %></p><% } %>
+          <h3 class="sn-skill-title"><%= c.title %></h3>
+          <% if (c.text) { %><p class="sn-skill-desc"><%= c.text %></p><% } %>
+        </div>
+      <% }) %>
+      <% (h.skills || []).forEach(function (g) { %>
+        <div class="sn-skill sn-skill-wide">
+          <div class="sn-tags"><% (g.items || []).forEach(function (t) { %><span class="sn-tag"><%= t %></span><% }) %></div>
+          <h3 class="sn-skill-title"><%= g.title %></h3>
+          <% if (g.text) { %><p class="sn-skill-desc"><%= g.text %></p><% } %>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>

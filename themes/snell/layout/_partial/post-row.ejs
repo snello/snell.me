@@ -1,0 +1,8 @@
+<a class="sn-row" href="<%- url_for(item.path) %>">
+  <time class="sn-row-meta" datetime="<%= date_xml(item.date) %>"><%= date(item.date, 'D MMM YYYY') %></time>
+  <span class="sn-row-main">
+    <span class="sn-row-title"><%= item.title || item.company || 'Untitled' %></span>
+    <% if (item.description) { %><span class="sn-row-sub"><%= item.description %></span><% } %>
+  </span>
+  <span class="sn-ring"><%- snell_icon('arrow-right', 14) %></span>
+</a>

@@ -1,0 +1,62 @@
+# Snell theme defaults. Override any of these in the site's _config.snell.yml
+# (or under theme_config in _config.yml, which wins over both).
+
+# Dock navigation: label key (translated in languages/en.yml) -> URL.
+nav:
+  home: /
+  about: /about/
+  career: /career/
+  projects: /projects/
+  posts: /posts/
+
+# Links used for the contact section. icon: mail | linkedin | github | twitter | any
+social_links: []
+
+# Name shown in the corner of every page and in the footer signature.
+name: Oliver Snell
+signature_name: Ollie
+signature_tagline: Product, engineering and the space between
+
+home:
+  statement: ''
+  roles: []
+  marquee: Product & Engineering
+  # A cut-out (transparent background) photo, e.g. /images/portrait.png. Shown in grayscale.
+  portrait: ''
+  lead: ''
+  lead_link:
+    label: More about me
+    url: /about/
+  work_heading: Selected work
+  work_note: ''
+  work_count: 4
+  roles_heading: Featured roles
+  # Company names of the job posts to feature, in order. Empty: the four most recent.
+  featured_roles: []
+  skills_heading: Experience and skills
+  highlights: []
+  skills: []
+
+contact:
+  eyebrow: That's all for now.
+  heading: Working on something? Let's talk.
+  cta: Get in touch
+
+career:
+  intro: ''
+
+projects:
+  intro: ''
+
+posts:
+  intro: ''
+
+favicon:
+  desktop:
+    url: /images/favicon.ico
+    gravatar: false
+  apple:
+    url: /images/apple-touch-icon.png
+    gravatar: false
+gravatar:
+  hash: ''

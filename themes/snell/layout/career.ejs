@@ -1,0 +1,7 @@
+<% var intro = (theme.career && theme.career.intro) ? markdown(theme.career.intro) : page.content; %>
+<section class="sn-listing">
+  <%- partial('_partial/page-head', { eyebrow: '', title: __('nav.career'), lead: intro }) %>
+  <div class="sn-rows">
+    <% snell_jobs().forEach(function (j) { %><%- partial('_partial/job-row', { item: j }) %><% }) %>
+  </div>
+</section>

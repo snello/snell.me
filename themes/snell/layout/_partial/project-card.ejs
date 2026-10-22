@@ -1,0 +1,11 @@
+<a class="sn-card" href="<%- url_for(item.path) %>">
+  <div class="sn-card-media<%= item.image ? '' : ' is-type' %>">
+    <% if (item.image) { %>
+      <img src="<%- url_for(item.image) %>" alt="" loading="lazy">
+    <% } else { %>
+      <span class="sn-card-type-title"><%= item.title %></span>
+      <% if (item.description) { %><span class="sn-card-type-note"><%= item.description %></span><% } %>
+    <% } %>
+  </div>
+  <div class="sn-card-caption"><span class="sn-ring"><%- snell_icon('arrow-right', 12) %></span><%= item.title %></div>
+</a>

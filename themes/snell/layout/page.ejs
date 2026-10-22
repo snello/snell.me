@@ -1,0 +1,11 @@
+<% if (page.path === 'index.html') { %>
+  <%- partial('_partial/home') %>
+<% } else { %>
+<article class="sn-article">
+  <% if (!snell_has_h1(page.content)) { %>
+    <%- partial('_partial/page-head', { eyebrow: '', title: page.title ? page.title.charAt(0).toUpperCase() + page.title.slice(1) : '' }) %>
+  <% } %>
+  <div class="sn-prose<%= snell_has_h1(page.content) ? ' has-title' : '' %>"><%- page.content %></div>
+  <%- partial('_partial/gallery', { item: page }) %>
+</article>
+<% } %>

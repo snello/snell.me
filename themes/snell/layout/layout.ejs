@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="<%= (config.language || 'en').substring(0, 2) %>">
+<%- partial('_partial/head') %>
+<body id="top" class="sn-body<%= is_home() || page.path === 'index.html' ? ' is-home' : '' %>">
+  <a class="sn-skip" href="#main">Skip to content</a>
+  <%- partial('_partial/topbar') %>
+  <main id="main">
+    <%- body %>
+  </main>
+  <%- partial('_partial/contact') %>
+  <%- partial('_partial/signature') %>
+  <%- partial('_partial/dock') %>
+</body>
+</html>

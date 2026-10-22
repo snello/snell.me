@@ -1,0 +1,7 @@
+<% var intro = (theme.posts && theme.posts.intro) ? markdown(theme.posts.intro) : page.content; %>
+<section class="sn-listing">
+  <%- partial('_partial/page-head', { eyebrow: '', title: __('nav.posts'), lead: intro }) %>
+  <div class="sn-rows">
+    <% snell_writing().forEach(function (p) { %><%- partial('_partial/post-row', { item: p }) %><% }) %>
+  </div>
+</section>

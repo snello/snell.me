@@ -1,0 +1,12 @@
+<%
+  var list = page.job_title ? snell_jobs() : (page.layout === 'project' ? snell_projects() : snell_writing());
+  var i = list.findIndex(function (p) { return p.path === page.path; });
+  var prev = i > 0 ? list[i - 1] : null, next = i >= 0 && i < list.length - 1 ? list[i + 1] : null;
+  var label = function (p) { return p.job_title ? p.company : p.title; };
+%>
+<% if (prev || next) { %>
+<nav class="sn-post-nav" aria-label="More">
+  <% if (prev) { %><a href="<%- url_for(prev.path) %>"><span class="sn-eyebrow"><%= __('labels.previous') %></span><%= label(prev) %></a><% } else { %><span></span><% } %>
+  <% if (next) { %><a class="is-next" href="<%- url_for(next.path) %>"><span class="sn-eyebrow"><%= __('labels.next') %></span><%= label(next) %></a><% } %>
+</nav>
+<% } %>

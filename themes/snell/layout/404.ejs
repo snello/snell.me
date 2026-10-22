@@ -1,0 +1,4 @@
+<section class="sn-listing sn-404">
+  <%- partial('_partial/page-head', { eyebrow: '404', title: __('labels.not_found'), lead: '<p>' + __('labels.not_found_note') + '</p>' }) %>
+  <a class="sn-btn sn-btn-link" href="<%- url_for('/') %>"><%= __('labels.go_home') %><span class="sn-ring"><%- snell_icon('arrow-right', 14) %></span></a>
+</section>

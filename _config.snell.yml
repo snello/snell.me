@@ -1,0 +1,66 @@
+# Content and settings for the Snell theme (themes/snell).
+# nav and social_links are read from theme_config in _config.yml, which takes precedence over this file.
+
+name: Ollie Snell
+signature_name: Ollie Snell
+signature_tagline: Building solutions to complex problems
+
+home:
+  statement: Product and engineering leader. Twenty years building products in identity, fintech and digital services. Based in New York.
+  roles:
+    - Product
+    - "& Engineering"
+  marquee: Product & Engineering
+  # Add a cut-out photo (transparent PNG or WebP) to source/images/ and point to it here.
+  portrait: /images/portrait.webp
+  lead: Twenty years across seven companies, from bootstrapped startups to scaled enterprises. The common thread is turning complex, regulated problems into products people rely on.
+  lead_note: Identity verification, payments, compliance and the platforms and teams behind them.
+  lead_link:
+    label: Read my story
+    url: /about/
+  work_heading: Selected work
+  work_note: Things I have built recently, mostly to learn something.
+  work_count: 4
+  roles_heading: Featured roles
+  featured_roles:
+    - Prove
+    - ElimiWait Parking
+    - Cognia
+    - Pobble
+  skills_heading: Experience and skills
+  highlights:
+    - figure: 20+
+      title: Years
+      text: Building and scaling products in fintech, identity and digital services.
+    - figure: "8"
+      title: Companies
+      text: From bootstrapped startups to scaled enterprises across several industries.
+    - figure: Launch
+      title: Product & Engineering
+      text: Strategy, Discovery and build (Architecture, Backend, frontend, DevOps).
+    - figure: Global
+      title: Reach
+      text: US, Canada and UK and European experience
+  skills:
+    - title: Languages & Frameworks
+      items: [C#, JavaScript, Java, Go, SQL, React, Vue]
+    - title: Platforms
+      items: [AWS, Kubernetes, Docker, PostgreSQL, Redis]
+    - title: Domains
+      items: [Identity Verification, Payments, Compliance, Capital Markets, RegTech, Media, EdTech]
+    - title: Product Operating Models
+      items: [SVPG, Pragmatic, Scaled, Founder-led]
+
+contact:
+  eyebrow: That's all for now.
+  heading: Interested in collaborating? Let's talk.
+  cta: Get in touch
+
+career:
+  intro: I've gone into more detail here than on [LinkedIn](https://linkedin.com/in/oliversnell) or my [résumé](/Oliver%20Snell%20Resume.pdf).
+
+projects:
+  intro: Projects I've built and contributed to, each one a chance to try a different technology or approach.
+
+posts:
+  intro: ''

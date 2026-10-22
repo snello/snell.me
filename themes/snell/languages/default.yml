@@ -1,0 +1,28 @@
+nav:
+  home: Home
+  about: About
+  career: Career
+  projects: Projects
+  posts: Writing
+  articles: Writing
+  contact: Contact
+  tag: Tag
+labels:
+  menu: Menu
+  present: Present
+  repository: Repository
+  live: Live version
+  website: Website
+  all_roles: All roles
+  all_work: See all work
+  all_posts: All writing
+  back_to: Back to
+  previous: Previous
+  next: Next
+  top: Back to top
+  location: Location
+  status: Status
+  tagged: Tagged
+  not_found: This page is not here
+  not_found_note: It may have moved, or the link may be wrong.
+  go_home: Go to the home page

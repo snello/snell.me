@@ -1,0 +1,15 @@
+<% var mail = snell_social('mail'); var c = theme.contact || {}; %>
+<section class="sn-contact" id="contact">
+  <p class="sn-eyebrow"><%= c.eyebrow %></p>
+  <h2 class="sn-contact-heading"><%= c.heading %></h2>
+  <div class="sn-contact-rule">
+    <a class="sn-disc" href="<%- mail ? mail.link : '#contact' %>"><%= c.cta %></a>
+  </div>
+  <div class="sn-contact-fields">
+    <% (theme.social_links || []).forEach(function (l) { %>
+      <% var value = l.icon === 'mail' ? l.link.replace(/^mailto:/, '').trim() : (l.label && l.label !== l.icon ? l.label : l.link.replace(/^https?:\/\/(www\.)?/, '')); %>
+      <% var label = l.icon === 'mail' ? 'Email' : l.icon.charAt(0).toUpperCase() + l.icon.slice(1); if (l.icon === 'linkedin') label = 'LinkedIn'; if (l.icon === 'github') label = 'GitHub'; if (l.icon === 'twitter') label = 'X / Twitter'; %>
+      <a class="sn-contact-field" href="<%- l.link.trim() %>"<%- l.icon === 'mail' ? '' : ' rel="me noopener"' %>><span><%= label %></span><%= value %></a>
+    <% }) %>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+<article class="sn-article h-entry">
+  <%- partial('_partial/page-head', { eyebrow: '<time datetime="' + date_xml(page.date) + '">' + date(page.date, 'MMMM YYYY') + '</time>', title: page.title, lead: page.description ? '<p>' + page.description + '</p>' : '' }) %>
+  <% if (page.repository || page.live_url) { %>
+  <div class="sn-actions">
+    <% if (page.live_url) { %><a class="sn-btn sn-btn-link" href="<%- page.live_url %>" rel="noopener"><%= __('labels.live') %><span class="sn-ring"><%- snell_icon('arrow-up-right', 14) %></span></a><% } %>
+    <% if (page.repository) { %><a class="sn-btn sn-btn-link" href="<%- page.repository %>" rel="noopener"><%= __('labels.repository') %><span class="sn-ring"><%- snell_icon('arrow-up-right', 14) %></span></a><% } %>
+  </div>
+  <% } %>
+  <% if (page.image) { %><figure class="sn-hero-image"><img src="<%- url_for(page.image) %>" alt=""></figure><% } %>
+  <div class="sn-prose e-content"><%- page.content %></div>
+  <%- partial('_partial/gallery', { item: page }) %>
+  <%- partial('_partial/tags', { item: page, link: true }) %>
+  <%- partial('_partial/post-nav') %>
+</article>

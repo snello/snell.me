@@ -1,0 +1,7 @@
+<section class="sn-listing">
+  <%- partial('_partial/page-head', { eyebrow: "Category", title: page.category }) %>
+  <div class="sn-rows">
+    <% page.posts.each(function (p) { %><%- p.job_title ? partial('_partial/job-row', { item: p }) : partial('_partial/post-row', { item: p }) %><% }) %>
+  </div>
+  <%- partial('_partial/pagination') %>
+</section>

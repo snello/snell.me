@@ -1,0 +1,7 @@
+<article class="sn-article h-entry">
+  <%- partial('_partial/page-head', { eyebrow: '<time datetime="' + date_xml(page.date) + '">' + date(page.date, 'D MMMM YYYY') + '</time>', title: page.title, lead: page.description ? '<p>' + page.description + '</p>' : '' }) %>
+  <div class="sn-prose e-content"><%- page.content %></div>
+  <%- partial('_partial/gallery', { item: page }) %>
+  <%- partial('_partial/tags', { item: page, link: true }) %>
+  <%- partial('_partial/post-nav') %>
+</article>

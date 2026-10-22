@@ -1,0 +1,63 @@
+/* Oliver Snell design tokens. Mirrors tokens.json in the "Oliver Snell" design system; change values there first. */
+@font-face { font-family: "DM Sans"; src: url("../fonts/DMSans-Variable.woff2") format("woff2"); font-weight: 100 1000; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Mono"; src: url("../fonts/DMMono-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Mono"; src: url("../fonts/DMMono-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+:root, [data-theme="light"] {
+  --surface: #ffffff;
+  --surface-raised: #f3f3f3;
+  --surface-chip: #e9e9e9;
+  --ink: #0b0b0b;
+  --ink-muted: #5e5e5e;
+  --line: #dedede;
+  --line-strong: #8c8c8c;
+  --accent: #3d4fe0;
+  --on-accent: #ffffff;
+  --accent-text: #3d4fe0;
+  --hero: #6e7478;
+  --on-hero: #ffffff;
+  --dock: #111111;
+  --dock-item: #2a2a2a;
+  --on-dock: #f2f2f2;
+  --dock-active: #f2f2f2;
+  --inverse: var(--ink);
+  --on-inverse: var(--surface);
+  --shadow-dock: 0 8px 24px rgba(0,0,0,0.28);
+}
+[data-theme="dark"] {
+  --surface: #000000;
+  --surface-raised: #1a1a1a;
+  --surface-chip: #2a2a2a;
+  --ink: #f5f5f5;
+  --ink-muted: #a1a1a1;
+  --line: #2c2c2c;
+  --line-strong: #707070;
+  --accent: #4a5bf0;
+  --on-accent: #ffffff;
+  --accent-text: #7d8bff;
+  --hero: #6e7478;
+  --on-hero: #ffffff;
+  --dock: #111111;
+  --dock-item: #2a2a2a;
+  --on-dock: #f2f2f2;
+  --dock-active: #f2f2f2;
+  --inverse: var(--ink);
+  --on-inverse: var(--surface);
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --space-32: 128px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, Menlo, monospace;
+}

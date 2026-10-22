@@ -26,7 +26,7 @@ title: Oliver Snell
     
     <div class="highlight-card">
       <div class="icon">💼</div>
-      <h3>7 Companies</h3>
+      <h3>8 Companies</h3>
       <p>From bootstrapped startups to scaled enterprises across multiple industries</p>
     </div>
     

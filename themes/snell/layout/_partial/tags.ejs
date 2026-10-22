@@ -1,0 +1,7 @@
+<% if (item.tags && item.tags.length) { %>
+<ul class="sn-tags" aria-label="<%= __('labels.tagged') %>">
+  <% item.tags.each(function (tag) { %>
+    <li><% if (link) { %><a class="sn-tag" href="<%- url_for(tag.path) %>"><%= tag.name %></a><% } else { %><span class="sn-tag"><%= tag.name %></span><% } %></li>
+  <% }) %>
+</ul>
+<% } %>
