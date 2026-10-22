@@ -2,25 +2,31 @@
 title: about
 date: 2022-04-29 17:11:48
 ---
-# About
-First and foremost, I am a human-being living in New York City since 2004.
+<figure class="sn-about-portrait">
+<img src="/images/portrait.png" alt="Oliver Snell">
+</figure>
+
+# Hi, I'm Oliver
+
+I'm a human being who has lived in New York City since 2004, and I've been trying to work out what I'm good for ever since.
 
 ## The early years
 
-I was born in the United Kingdom and grew up with a curiosity for how things work, that led to many disassembled items around the house; from He-Man toys to binoculars, but always a growth in understanding as well as an expanded idea of what is possible.
+I was born in the United Kingdom and grew up taking things apart to see how they worked. He-Man toys, binoculars, the family computer. Most of them never went back together quite the same way, but I usually understood them better afterwards, and that was the point.
 
-This naturally led me to computers, the programs of which I found I could more easily dis/assemble without fear of any familial repurcussions!
+That curiosity led me to computers, which I could take apart and put back together without anyone getting too upset.
 
 ## Apprenticeship
 
-After school at 18, I opted to apply for an apprenticeship with [BT Labs](https://atadastral.co.uk/bt/) over heading directly off to University. Specifically, I joined the the Satellite Communications group working on improving the operation and monitoring of BTs Satellite Earth stations. Space, the final frontier! I had finally made it. 🚀 The team I was assigned to were a fantastic group with their head in the clouds, exactly where I wanted to be. I wrote-up (mainly for my own memory) a little bit of what I remember about the biggest project I tackled during my apprenticeship [here](/2022/06/03/Apprenticeship-at-BT-Labs/).
+After High School, I decided to complete a 2-year apprenticeship with [BT Labs](https://en.wikipedia.org/wiki/BT_Research), on the Satellite Communications team instead of going directly to University. The SatComms team had their heads in the clouds, which suited me fine. I wrote up the biggest project from that time [here](/2025/04/27/Apprenticeship-at-BT-Labs/), mostly for my own memory.
 
 ## University
 
-Having completed my apprenticeship, I set out to gain a deeper understanding of technology at the [University of East Anglia](https://www.uea.ac.uk/) gaining a BSc in Computer Science. My final year project was attemping to improve upon the various low-bandwidth voice encoding standards in use on mobile networks at the time; ([g.711 PCM](https://en.wikipedia.org/wiki/G.711) and [G.726 ADPCM](https://en.wikipedia.org/wiki/G.726)). I used the [R language](https://www.r-project.org/) to implement, test and improve on those standards. Mostly successful, but sometimes with incomprehensible and hilarious results.
-
+After that I went to the [University of East Anglia](https://www.uea.ac.uk/) for a BSc in Computer Science. My final year project tried to improve the low-bandwidth voice codecs used on mobile networks at the time, [g.711 PCM](https://en.wikipedia.org/wiki/G.711) and [G.726 ADPCM](https://en.wikipedia.org/wiki/G.726). I built and tested it in the [R language](https://www.r-project.org/). It was mostly successful, with some hilarious failures along the way.
 
 ## Career
+
+The full list is below. The one that shaped me most was SuitcaseTV, where I worked across product, engineering and forward deployed work, directly with the founder, an industry veteran. I learned a huge amount from him and from our customers. That's where my focus on customer problems and customer outcomes really took hold, and I still judge most things by that test.
 
 <ul class="sn-career-list">
 <li><span class="sn-career-years">2018 - Present</span><a href="/2025/04/29/Prove/">Prove</a></li>
@@ -33,8 +39,18 @@ Having completed my apprenticeship, I set out to gain a deeper understanding of 
 <li><span class="sn-career-years">1997 - 1999</span><a href="/2025/04/27/Apprenticeship-at-BT-Labs/">BT Labs</a></li>
 </ul>
 
-## Future
+## Outside of work
 
-With technology, the options are endless. A new discovery is only some research and a keyboard away. These are exciting times to be trying to solve big problems and I am constantly looking for places and people to do that with.
+I play golf as often as I can get away with, and I tinker constantly with coding tools, Raspberry Pis and Arduino projects. People usually come to me for a considered opinion on tech, and on all things British. My UK friends obviously want me to explain the US.
 
-Reach out if that sounds interesting! [<i class="fa fa-envelope" aria-hidden="true"></i>](mailto:oliver+mywebsite@snell.me)
+## What I'm looking for now
+
+I'm looking for my next challenge. Choosing the right company takes time, and so does finding the right people to take on hard problems with. I'd rather spend a few extra months finding a team I'm excited about than jump at the first thing that comes along. The projects I've worked on are on the [projects page](/projects/) and the [posts](/posts/).
+
+## Union Square
+
+I live near Union Square, which is the best neighborhood in New York. Like most New Yorkers, I'm very sure of it.
+
+---
+
+Reach out if it sounds interesting! [<i class="fa fa-envelope" aria-hidden="true"></i>](mailto:oliver+mywebsite@snell.me)

@@ -199,6 +199,8 @@ a.sn-tag:hover { background: var(--ink); color: var(--surface); }
 .sn-prose .sn-career-list { list-style: none; padding-left: 0; }
 .sn-prose .sn-career-list li { display: grid; grid-template-columns: 9.5rem 1fr; column-gap: var(--space-4); }
 .sn-prose .sn-career-years { color: var(--ink-muted); white-space: nowrap; }
+.sn-prose .sn-about-portrait { margin: 0 0 var(--space-6); max-width: 14rem; }
+.sn-prose .sn-about-portrait img { display: block; width: 100%; height: auto; border-radius: 4px; }
 @media (max-width: 720px) { .sn-prose .sn-career-list li { grid-template-columns: 8.5rem 1fr; } }
 .sn-prose blockquote { margin-left: 0; padding: 0 0 0 var(--space-6); border-left: 1px solid var(--line-strong); color: var(--ink-muted); }
 .sn-prose hr { border: 0; border-top: 1px solid var(--line); margin: var(--space-12) 0; }
