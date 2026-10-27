@@ -13,7 +13,7 @@ home:
   marquee: Product & Engineering
   # Add a cut-out photo (transparent PNG or WebP) to source/images/ and point to it here.
   portrait: /images/portrait.webp
-  lead: Fifteen years across seven companies, from bootstrapped startups to scaled enterprises. The common thread is turning complex, regulated problems into products people rely on.
+  lead: Fifteen years across eight companies, from bootstrapped startups to scaled enterprises. The common thread is turning complex, regulated problems into products people rely on.
   lead_note: Identity verification, payments, compliance and the platforms and teams behind them.
   lead_link:
     label: Read my story

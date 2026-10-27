@@ -84,6 +84,16 @@ hexo.extend.helper.register('snell_writing', function () {
     .sort((a, b) => b.date - a.date);
 });
 
+// Every tag used across career roles, once each (case-insensitive), A to Z.
+hexo.extend.helper.register('snell_job_tags', function () {
+  const seen = new Map();
+  this.snell_jobs().forEach(j => (j.tags || []).forEach(t => {
+    const key = String(t.name).toLowerCase();
+    if (!seen.has(key)) seen.set(key, t);
+  }));
+  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
+});
+
 // Roles named in theme.home.featured_roles (by company), else the most recent four.
 hexo.extend.helper.register('snell_featured_roles', function () {
   const jobs = this.snell_jobs();

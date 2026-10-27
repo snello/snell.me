@@ -4,4 +4,7 @@
   <div class="sn-rows">
     <% snell_jobs().forEach(function (j) { %><%- partial('_partial/job-row', { item: j }) %><% }) %>
   </div>
+  <ul class="sn-tags sn-career-tags" aria-label="<%= __('labels.tagged') %>">
+    <% snell_job_tags().forEach(function (tag) { %><li><a class="sn-tag" href="<%- url_for(tag.path) %>"><%= tag.name %></a></li><% }) %>
+  </ul>
 </section>
