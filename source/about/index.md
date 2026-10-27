@@ -29,14 +29,14 @@ After that I went to the [University of East Anglia](https://www.uea.ac.uk/) for
 The full list is below. The one that shaped me most was SuitcaseTV, where I worked across product, engineering and forward deployed work, directly with the founder, an industry veteran. I learned a huge amount from him and from our customers. That's where my focus on customer problems and customer outcomes really took hold, and I still judge most things by that test.
 
 <ul class="sn-career-list">
-<li><span class="sn-career-years">2018 - Present</span><a href="/2025/04/29/Prove/">Prove</a></li>
-<li><span class="sn-career-years">2016 - 2018</span><a href="/2025/04/29/ElimiWait-Parking/">ElimiWait Parking</a></li>
-<li><span class="sn-career-years">2015 - 2016</span><a href="/2025/04/29/Pobble/">Pobble</a></li>
-<li><span class="sn-career-years">2012 - 2015</span><a href="/2025/04/29/Cognia/">Cognia</a></li>
-<li><span class="sn-career-years">2008 - 2012</span><a href="/2025/08/05/international-british-schools/">International British Schools</a></li>
-<li><span class="sn-career-years">2004 - 2008</span><a href="/2025/04/29/ION-Trading/">ION Trading</a></li>
-<li><span class="sn-career-years">2002 - 2004</span><a href="/2025/04/27/career-suitcasetv/">SuitcaseTV</a></li>
-<li><span class="sn-career-years">1997 - 1999</span><a href="/2025/04/27/Apprenticeship-at-BT-Labs/">BT Labs</a></li>
+<li><span class="sn-career-years">2018 - Present</span><div><a href="/2025/04/29/Prove/">Prove</a><div class="sn-tags"><span class="sn-tag">Digital Identity</span><span class="sn-tag">Identity Verification</span><span class="sn-tag">KYC</span><span class="sn-tag">AML</span><span class="sn-tag">Compliance</span><span class="sn-tag">RegTech</span><span class="sn-tag">SaaS</span><span class="sn-tag">B2B</span></div></div></li>
+<li><span class="sn-career-years">2016 - 2018</span><div><a href="/2025/04/29/ElimiWait-Parking/">ElimiWait Parking</a><div class="sn-tags"><span class="sn-tag">Parking</span><span class="sn-tag">Yield Management</span><span class="sn-tag">B2B</span><span class="sn-tag">SaaS</span><span class="sn-tag">React</span><span class="sn-tag">C#</span><span class="sn-tag">MySQL</span></div></div></li>
+<li><span class="sn-career-years">2015 - 2016</span><div><a href="/2025/04/29/Pobble/">Pobble</a><div class="sn-tags"><span class="sn-tag">B2B(2C)</span><span class="sn-tag">SaaS</span><span class="sn-tag">EdTech</span><span class="sn-tag">Ruby on Rails</span><span class="sn-tag">Elasticsearch</span><span class="sn-tag">PostgreSQL</span></div></div></li>
+<li><span class="sn-career-years">2012 - 2015</span><div><a href="/2025/04/29/Cognia/">Cognia</a><div class="sn-tags"><span class="sn-tag">SaaS</span><span class="sn-tag">B2B</span><span class="sn-tag">Payments</span><span class="sn-tag">Audit</span><span class="sn-tag">Compliance</span><span class="sn-tag">RegTech</span></div></div></li>
+<li><span class="sn-career-years">2008 - 2012</span><div><a href="/2025/08/05/international-british-schools/">International British Schools</a><div class="sn-tags"><span class="sn-tag">Education</span><span class="sn-tag">Ruby on Rails</span><span class="sn-tag">IT Services</span></div></div></li>
+<li><span class="sn-career-years">2004 - 2008</span><div><a href="/2025/04/29/ION-Trading/">ION Trading</a><div class="sn-tags"><span class="sn-tag">Investment Banking</span><span class="sn-tag">Fixed Income Repo</span><span class="sn-tag">B2B</span><span class="sn-tag">C++</span><span class="sn-tag">Linux</span><span class="sn-tag">TransactSQL</span><span class="sn-tag">Perl</span><span class="sn-tag">Forward Deployed</span></div></div></li>
+<li><span class="sn-career-years">2002 - 2004</span><div><a href="/2025/04/27/career-suitcasetv/">SuitcaseTV</a><div class="sn-tags"><span class="sn-tag">C++</span><span class="sn-tag">B2B</span><span class="sn-tag">Hardware</span><span class="sn-tag">Broadcast Playout</span><span class="sn-tag">Audit</span><span class="sn-tag">FPGA</span></div></div></li>
+<li><span class="sn-career-years">1997 - 1999</span><div><a href="/2025/04/27/Apprenticeship-at-BT-Labs/">BT Labs</a><div class="sn-tags"><span class="sn-tag">C++</span><span class="sn-tag">Electronics</span><span class="sn-tag">Scientific Measurement</span><span class="sn-tag">SatComms</span></div></div></li>
 </ul>
 
 ## Outside of work

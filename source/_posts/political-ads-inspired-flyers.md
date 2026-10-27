@@ -1,5 +1,6 @@
 ---
 title: Campaign Season Inspiration
+published: false
 date: 2026-10-14 09:00:00
 tags:
     - Personal

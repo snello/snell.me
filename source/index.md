@@ -5,7 +5,7 @@ title: Oliver Snell
 <div id="hero-section">
   <div class="hero-content">
     <h1>Building solutions to complex problems</h1>
-    <p class="tagline">VP Product at Prove | 20+ years in tech | NYC-based</p>
+    <p class="tagline">VP Product at Prove | 15+ years in tech | NYC-based</p>
     <div class="cta-buttons">
       <a href="/career/" class="btn btn-primary">View Career</a>
       <a href="/projects/" class="btn btn-secondary">View Projects</a>
@@ -20,7 +20,7 @@ title: Oliver Snell
   <div class="highlights-grid">
     <div class="highlight-card">
       <div class="icon">🚀</div>
-      <h3>20+ Years</h3>
+      <h3>15+ Years</h3>
       <p>Building and scaling products in fintech, identity, and digital services</p>
     </div>
     
