@@ -6,14 +6,14 @@ signature_name: Ollie Snell
 signature_tagline: Building solutions to complex problems
 
 home:
-  statement: Product and engineering leader. Twenty years building products in identity, fintech and digital services. Based in New York.
+  statement: Product and engineering leader. Fifteen years building products in identity, fintech and digital services. Based in New York.
   roles:
     - Product
     - "& Engineering"
   marquee: Product & Engineering
   # Add a cut-out photo (transparent PNG or WebP) to source/images/ and point to it here.
   portrait: /images/portrait.webp
-  lead: Twenty years across seven companies, from bootstrapped startups to scaled enterprises. The common thread is turning complex, regulated problems into products people rely on.
+  lead: Fifteen years across seven companies, from bootstrapped startups to scaled enterprises. The common thread is turning complex, regulated problems into products people rely on.
   lead_note: Identity verification, payments, compliance and the platforms and teams behind them.
   lead_link:
     label: Read my story

@@ -51,7 +51,7 @@ title: Oliver Snell
     <div class="role-card">
       <h3>Prove</h3>
       <p class="role-title">VP, Product</p>
-      <p class="role-dates">September 2018 - Present</p>
+      <p class="role-dates">September 2018 - August 2026</p>
       <p>Spearheading growth initiatives and product development in the digital identity space, scaling revenue from $20M to $150M+</p>
       <a href="/2025/04/29/Prove/">Read more →</a>
     </div>
