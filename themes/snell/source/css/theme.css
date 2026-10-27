@@ -124,6 +124,7 @@ a.sn-tag:hover { background: var(--ink); color: var(--surface); }
 .sn-card:hover .sn-ring { transform: rotate(-45deg); color: var(--accent-text); }
 
 /* Rows: roles and writing */
+.sn-career-tags { margin: var(--space-8) 0 30px; }
 .sn-rows { border-top: 1px solid var(--line); }
 .sn-row { display: grid; grid-template-columns: 140px minmax(0, 1fr) auto auto; align-items: center; gap: var(--space-6); padding: var(--space-6) 0; border-bottom: 1px solid var(--line); text-decoration: none; color: inherit; }
 .sn-row-meta { font-family: var(--font-mono); font-size: 12px; line-height: 1.4; color: var(--ink-muted); }
